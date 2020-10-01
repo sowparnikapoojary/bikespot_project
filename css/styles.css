@@ -1,0 +1,481 @@
+/* font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+/***** Tag Selectors *****/
+
+a {
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  text-align: center;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h3,
+h4,
+h5 {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+}
+hr {
+  border-style: none;
+  margin: 0;
+}
+table {
+  margin: 0.1rem auto;
+}
+video {
+  background-size: cover;
+  width: -webkit-fill-available;
+  opacity: 0.5;
+}
+
+/***** ID Selectors *****/
+
+#download {
+  background-color: black;
+  opacity: 0.9;
+  position: relative;
+  padding: 1.5% 7.5% 9.1%;
+}
+#footer {
+  background-color: white;
+  position: relative;
+  padding-top: 30px;
+}
+#footer a {
+  padding: 18px 20px;
+}
+#title {
+  background-color: rgb(44, 209, 132);
+  color: white;
+}
+#testimonials h2 {
+  font-family: "Lato", sans-serif;
+}
+#nohamborder {
+  border-color: transparent;
+  border-style: none;
+}
+#icons {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url(../img/img4.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: floralwhite;
+  margin: 0px auto;
+  height: 300px;
+}
+/***** Class Selectors *****/
+
+.ad-pad {
+  padding-top: 28px;
+}
+.btn-store {
+  color: white;
+  min-width: 254px;
+  padding: 15px 20px;
+  border-color: white;
+  margin-right: 30px;
+}
+.btn-store .btn-label,
+.btn-store .btn-caption {
+  display: block;
+  text-align: left;
+  line-height: 1;
+}
+
+.carousel-item h2 {
+  font-size: 3.5rem;
+}
+.carousel-item {
+  padding: 7.5% 15%;
+}
+
+.card {
+  border: 1px outset #2dce83;
+  border-radius: 0.2rem;
+  margin: 20px auto;
+}
+/* advertisement bike img */
+
+.col-md-3 img {
+  width: 275px;
+  height: 275px;
+}
+/* download button */
+.dwnbtn {
+  margin: 5% 5% 0 0;
+}
+.display-4-1 {
+  font-size: 3rem;
+  line-height: 1.3;
+}
+.fa-hand-o-right {
+  padding-right: 10px;
+}
+.fa-hand-o-right:hover {
+  color: whitesmoke;
+}
+.gred-div {
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.hovglow:hover {
+  color: #2dce85;
+}
+.intro {
+  margin: auto auto;
+  background: linear-gradient(
+    rgb(1, 3, 22),
+    rgb(184, 138, 138),
+    rgb(142, 192, 173),
+    rgb(15, 111, 124),
+    rgb(0, 5, 30),
+    rgb(44, 209, 132)
+  );
+  position: relative;
+}
+
+.jumbotron-text {
+  font-size: 2.5rem;
+  font-weight: 100;
+  opacity: 0.9;
+  margin: 0.2rem auto;
+}
+.jumboh1 {
+  font-size: 6rem;
+  width: 80%;
+  margin: 0.1rem auto 0.1rem;
+  opacity: 1.5;
+}
+.jumbotron {
+  background-color: transparent;
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  z-index: 1;
+}
+
+.line {
+  line-height: 8px;
+  padding-bottom: 16px;
+}
+
+.line-1 {
+  width: 100px;
+  height: 1px;
+  background: black;
+  display: inline-block;
+}
+
+.line-2 {
+  width: 70px;
+  height: 1px;
+  background: black;
+  display: inline-block;
+}
+.mobileuse {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url(images/img10.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0px auto;
+  height: 600px;
+}
+.mrtop {
+  margin-top: 20px;
+}
+.news-letter {
+  line-height: 2.5;
+  font-size: 1.5rem;
+}
+.navbar-brand {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.p-mr-top {
+  margin-top: 50px;
+}
+.p-0 {
+  padding: 10px !important;
+}
+/* mobile version display hidden on PC */
+
+#price-deals-m {
+  display: none;
+}
+
+.icon-pad-top {
+  padding-top: 30px;
+}
+.srchbtndiv {
+  position: relative;
+}
+.social-media {
+  font-size: 2rem;
+  display: inline-grid;
+}
+.searchbtn {
+  position: absolute;
+  right: 11px;
+  bottom: 10px;
+  padding: 0;
+}
+.search-sec {
+  background-color: black;
+  opacity: 0.85;
+  padding: 20px;
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+/* title image */
+.title-img {
+  width: 60%;
+  padding-top: 1.2rem;
+  position: absolute;
+  top: 2.5rem;
+  left: 5rem;
+  transform: rotate(25deg);
+}
+.topbar-container {
+  padding: 0;
+}
+.test-img {
+  border-radius: 100%;
+  vertical-align: middle;
+  border-style: none;
+  width: 15%;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+.test-img-2 {
+  vertical-align: middle;
+  border-style: none;
+  width: 25%;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+/* Responsive Web Design by Media Query Breakpoints */
+@media (min-width: 700px) and (max-width: 800px) {
+  .ad-pad {
+    position: relative;
+    right: 30px;
+  }
+}
+
+/* Ipad pro responsive */
+@media (min-width: 992px) and (max-width: 1040px) {
+  .ad-pad {
+    position: relative;
+    right: 25px;
+  }
+}
+
+@media (max-width: 991px) {
+  /***** Tag Selectors *****/
+
+  video {
+    width: 100%;
+  }
+
+  /***** ID Selectors *****/
+
+  #download {
+    text-align: center;
+    padding: 3% 15%;
+  }
+  #footer a {
+    padding: 18px 15px;
+  }
+  #icons {
+    height: 500px;
+  }
+  #icons h4,
+  h5 {
+    font-size: smaller;
+    padding: 15px auto;
+  }
+  #heading-m {
+    position: relative;
+    top: 20px;
+  }
+
+  #price-deals {
+    display: none;
+  }
+  #price-deals-m {
+    display: initial;
+  }
+  #p-fsr {
+    font-size: 0.84rem;
+  }
+  #p-fsr2 {
+    font-size: 0.84rem;
+  }
+  /***** Class Selectors *****/
+
+  .carousel-item h2 {
+    font-size: 1rem;
+  }
+  .carousel-item em {
+    font-size: 0.3rem;
+  }
+  .display-4-1 {
+    font-size: 2rem;
+    line-height: 1.3;
+    text-align: center;
+    margin: auto;
+  }
+  .dwnbtntwo {
+    text-align: center;
+  }
+  .gred-div h4 {
+    font-size: 1.2rem;
+  }
+  .gred-div p {
+    text-align: left;
+  }
+  .icon-img {
+    font-size: 7px;
+    margin: 10px auto;
+    padding: 10px auto;
+  }
+
+  .intro {
+    background: linear-gradient(
+      rgb(1, 3, 22),
+      rgb(184, 138, 138),
+      rgb(142, 192, 173),
+      rgb(15, 111, 124),
+      rgb(0, 5, 30),
+      rgb(44, 209, 132),
+      rgb(255, 255, 255),
+      rgb(255, 255, 255)
+    );
+  }
+
+  .jumbotron {
+    top: 7%;
+  }
+
+  .jumbotron-text {
+    font-size: 0.85rem;
+    opacity: 1.5;
+    margin: 0.1rem;
+  }
+
+  .jumboh1 {
+    font-size: 1.85rem;
+    margin: 0.3rem auto;
+    opacity: 1.5;
+  }
+  .p-mr-top {
+    text-align: center;
+  }
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+  .navbar {
+    width: cover;
+  }
+  .news-letter {
+    line-height: 1.5;
+  }
+  .search-sec {
+    position: relative;
+    bottom: 22px;
+    padding: 5px;
+  }
+  .social-media {
+    font-size: initial;
+    display: inline-grid;
+  }
+  .topbar-container {
+    width: cover;
+  }
+}
+
+/* Animation using Keyframes */
+
+.typewriter p {
+  font-family: "Raleway", sans-serif; /* Font Style */
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.05em solid white; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.08em; /* Adjust as needed */
+  animation: typing 5s steps(80, end), blink-caret 0.3s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 80%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  5% {
+    border-color: whitesmoke;
+  }
+  10% {
+    border-color: transparent;
+  }
+}
+
+/* Sign Up Page */
+.divider-text {
+  position: relative;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.divider-text span {
+  padding: 7px;
+  font-size: 12px;
+  position: relative;
+  z-index: 2;
+}
+.divider-text:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  top: 55%;
+  left: 0;
+  z-index: 1;
+}
+
+.btn-facebook {
+  background-color: #405d9d;
+  color: #fff;
+}
+.btn-twitter {
+  background-color: #42aeec;
+  color: #fff;
+}

@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BIKESPOT</title>
+    <!-- Website Icon or Favicon -->
+
+    <link rel="icon" href="favicon.ico" />
+
+    <!-- bootstrap CDN or Content Delivery Network -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <!-- My External CSS -->
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <!-- Google Font Embedding Link -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@900&family=Raleway&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome CDN -->
+    <script
+      src="https://kit.fontawesome.com/d58806add9.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- previous version font awesome css -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- bs jquery w3s -->
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- form directory search link -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <!-- node modules -->
+    <link
+      href="node_modules/bootstrap-social/bootstrap-social.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="title">
+      <!-- top bar -->
+
+      <div class="container-fluid topbar-container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand font-weight-bold" href="#">Search</a>
+          <button
+            class="navbar-toggler"
+            id="nohamborder"
+            type="button"
+            data-toggle="collapse"
+            data-target="#register"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="register">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle font-weight-bold text-light"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Login\Sign Up
+                </a>
+                <div
+                  class="dropdown-menu bg-dark"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <a class="dropdown-item font-weight-bold" href="login.html"
+                    ><i class="fa fa-sign-in text-light"> Login </i></a
+                  >
+                  <a class="dropdown-item font-weight-bold text-light" href="signup.html"
+                    ><i class="fa fa-unlock"> Sign Up </i></a
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <hr />
+
+      <!-- nav bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><strong
+              ><span style="color: rgb(45, 206, 131);">BIKE</span>SPOT</strong
+            ></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="home"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >HOME
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="search"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >SEARCH</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="compare"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >COMPARE</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="reviews"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >REVIEWS</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="aboutus"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >ABOUT US</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="services"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >SERVICES</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="pages"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >PAGES</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="users"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >USERS</a
+                >
+              </li>
+            </ul>
+            <ul class="navbar-nav">
+              <button
+                type="button"
+                class="btn text-light"
+                style="background-color: rgb(45, 206, 131);"
+              >
+                SELL YOUR BIKE
+              </button>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <hr />
+
+      <!-- background video -->
+
+      <div class="intro">
+        <video
+          autoplay=""
+          muted=""
+          loop=""
+          src="video/title-track.mp4"
+          poster="posterimage.jpg"
+        ></video>
+        <div class="content">
+          <p class="description"></p>
+        </div>
+        <!-- Jumbotron -->
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 class="display-4 font-weight-bold jumboh1">
+              Find What You Are Looking For
+            </h1>
+            <div class="typewriter">
+              <!-- Animation Class-->
+              <p class="lead font-weight-bold jumbotron-text">
+                Over 90,000 Latest Bikes In Databank
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Directory Bar -->
+
+        <div class="search-sec">
+          <div class="container">
+            <form
+              action="#"
+              method="post"
+              novalidate="novalidate"
+              wtx-context="D981109D-4122-4F3F-8B88-6FA989DBEFEE"
+            >
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-3 col-sm-12 p-0 srchbtndiv">
+                      <input
+                        type="text"
+                        class="form-control search-slt"
+                        placeholder="Search City"
+                        wtx-context="3FA31B11-A337-4ABD-8A58-954A4AEEBE69"
+                      />
+                      <div class="input-group-append searchbtn">
+                        <button
+                          id="button-addon1"
+                          type="submit"
+                          class="btn btn-link text-dark bg-white"
+                        >
+                          <i class="fa fa-search"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-3 col-sm-12 p-0">
+                      <select
+                        class="form-control search-slt"
+                        id="exampleFormControlSelect1"
+                        wtx-context="625781DC-8B1A-4692-8C15-DD967B2B4FB7"
+                      >
+                        <option><b>Select Vehicle</b></option>
+                        <option>BMW BIKES</option>
+                        <option>ROYAL ENFIELD BIKES</option>
+                        <option>DUCATI BIKES</option>
+                        <option>SUZUKI BIKES</option>
+                        <option>TVS BIKES</option>
+                        <option>HERO BIKES</option>
+                        <option>VESPA SCOOTERS</option>
+                        <option>HONDA SCOOTERS</option>
+                        <option>Others</option>
+                      </select>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                      <button
+                        type="button"
+                        class="btn btn-block btn-success wrn-btn"
+                      >
+                        Search
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+
+    <!-- product featuring -->
+
+    <section id="feature">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h3>
+              Latest
+              <span style="color: rgb(45, 206, 131);">Featured</span> Bikes
+            </h3>
+            <div class="line"">
+              <span class="line-1"></span><br>
+              <span class="line-2"></span><br>
+            </div>
+            <p class="text-muted">
+              Eu delicata rationibus usu. Vix te putant utroque, ludus fabellas
+              duo eu, his dico ut debet consectetuer.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- bg green red color partition -->
+
+      <div class="row gred-div">
+        <div class="col-6 align-text-left bg-light green-bg">
+          <p class="p-mr-top" id="p-fsr"><em>Want to Buy A New Bike?</em></p>
+          <h4 style="color: rgb(45, 206, 131);">Are you looking for a Bike?</h4>
+          <p class="text-muted">Search your car in our inventory and request<br>a quote on the vehicle of your choosing sonu.
+          </p>
+        </div>
+        <div class="col-6 align-text-left" style=" background-color: #fceef4;">
+          <p class="p-mr-top" id="p-fsr2"><em>Want to Sale Your Bike?</em></p>
+          <h4 style="color: rgb(45, 206, 131);">Do you want to sell your Bike?</h4>
+          <p class="text-muted">Research search your car in our inventory<br>& a quote on the vehicle of your choosing.</p>
+        </div>
+      </div>
+      <div class="mrtop">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <h3>Latest <span style="color: rgb(45, 206, 131);">Trending</span> Ads</h3>
+              <div class="line" style="padding-top: 10px; padding-bottom: 20px;">
+                <span class="line-1"></span><br>
+                <span class="line-2"></span><br>
+              </div>
+              <p class="text-muted" style="padding-bottom: 10px;">Eu delicata rationibus usu. Vix te putant utroque, ludus
+                fabellas duo eu, his dico ut debet consectetuer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+     <hr>
+      <!-- Bike display and pricing -->
+
+          <!-- To Be Displayed In PC only -->
+
+      <section id="price-deals">
+        <div class="container">
+        <div class="card">
+          <div class="row">
+            <div class="col-md-3">
+              <img src="images/img2.jpg" alt="honda"">
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">Honda Cbr 600</h5>
+                <p class="card-text text-muted"><i class="fa fa-map-marker" aria-hidden="true"></i>Bloomfield, New Jersy,
+                  United States <i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;&nbsp;July 28, 2017</p>
+                <p class="text-muted">On The Wheel was established in 2006 and has grown fast to become one of south's top
+                  motorcycle shops. Our state...</p>
+                <p class="text-muted"><i class="fa fa-tachometer" aria-hidden="true"> 8000 km</i> <i class="fa fa-cogs"
+                    aria-hidden="true"> 1500 CC</i> <i class="fa fa-car" aria-hidden="true"> SxS UTV</i><i class="fa fa-cog"
+                    aria-hidden="true"> Bronze</i></p>
+              </div>
+            </div>
+            <div class="vertical-divider align-self-center"></div>
+            <div class="col-md-3 ad-pad">
+              <p class="card-text"><b>Ad Type : </b><span class="text-muted">Sell</span></p>
+              <p class="card-text"><b>Condition : </b><span class="text-muted">New</span></p>
+              <p class="card-text"><b>Visits : </b><span class="text-muted">2080</span></p>
+              <p class="card-text"><strong style="color: rgb(45, 206, 131); font-size: x-large;">$3,343</strong><span
+                  class="text-muted"> (Fixed)</span></p>
+              <button type="button" class="btn btn-sm"
+                style="background-color: rgb(45, 206, 131); color: floralwhite; width: 230px"><i class="fa fa-eye"
+                  aria-hidden="true"> VIEW AD</i></button>
+            </div>
+          </div>
+        </div>
+        <!-- second card -->
+        <div class="card">
+          <div class="row">
+            <div class="col-md-3">
+              <img src="images/img3.jpg" alt="honda">
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">Kawasaki Ninja Bike</h5>
+                <p class="card-text text-muted"><i class="fa fa-map-marker" aria-hidden="true"></i>Bellevue, Washington, United
+                  States <i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;&nbsp;July 28, 2017</p>
+                <p class="text-muted">On The Wheel was established in 2006 and has grown fast to become one of south's top
+                  motorcycle shops. Our state...</p>
+                <p class="text-muted"><i class="fa fa-tachometer" aria-hidden="true"> 8000 km</i> <i class="fa fa-cogs"
+                    aria-hidden="true"> 1250 CC</i> <i class="fa fa-car" aria-hidden="true"> Road Bikes</i> <i class="fa fa-cog"
+                    aria-hidden="true"> Green</i></p>
+              </div>
+            </div>
+            <div class="vertical-divider align-self-center"></div>
+            <div class="col-md-3 ad-pad">
+              <p><b>Ad Type : </b><span class="text-muted">Sell</span></p>
+              <p><b>Condition : </b><span class="text-muted">New</span></p>
+              <p><b>Visits : </b><span class="text-muted">2169</span></p>
+              <p><strong style="color: rgb(45, 206, 131); font-size: x-large;">$3,343</strong><span class="text-muted">
+                  (Negotiable)</span></p>
+              <button type="button" class="btn btn-sm"
+                style="background-color: rgb(45, 206, 131); color: floralwhite; width: 230px"><i class="fa fa-eye"
+                  aria-hidden="true"> VIEW AD</i></button>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+
+                <!-- To Be Displayed In Mobile Version only -->
+
+                <section id="price-deals-m">
+                  <div id="accordion">
+                    <div class="card bg-transparent" style="margin: 0 auto;border: none;">
+                      <div class="card-header text-center" id="heading-m" style="mix-blend-mode: hard-light;">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link text-success font-weight-bold text-uppercase dropdown-toggle" data-toggle="collapse"
+                            data-target="#collapse-m" aria-expanded="true" aria-controls="collapse-m"> Click To View Deals </button>
+                        </h5>
+                      </div>
+                      <!-- to keep open initially add show class below -->
+                  
+                      <div id="collapse-m" class="collapse in" aria-labelledby="headingOne" data-parent="#accordion" style=""
+                        aria-expanded="true">
+                        <div class="card-body text-muted text-center"> Eu delicata rationibus usu. Vix te putant utroque, ludus fabellas
+                          duo eu, his dico ut debet consectetuer. </div>
+                  
+                        <div class="container">
+                          <div class="card">
+                            <div class="row">
+                              <div class="col-md-3">
+                                <img src="images/img2.jpg" alt="honda">
+                              </div>
+                              <div class="col-md-6">
+                                <div class="card-body">
+                                  <h5 class="card-title">Honda Cbr 600</h5>
+                                  <p class="card-text text-muted"><i class="fa fa-map-marker" aria-hidden="true"></i>Bloomfield, New
+                                    Jersy,
+                                    United States <i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;&nbsp;July 28, 2017</p>
+                                  <p class="text-muted">On The Wheel was established in 2006 and has grown fast to become one of south's
+                                    top
+                                    motorcycle shops. Our state...</p>
+                                  <p class="text-muted"><i class="fa fa-tachometer" aria-hidden="true"> 8000 km</i> <i class="fa fa-cogs"
+                                      aria-hidden="true"> 1500 CC</i> <i class="fa fa-car" aria-hidden="true"> SxS UTV</i><i
+                                      class="fa fa-cog" aria-hidden="true"> Bronze</i></p>
+                                </div>
+                              </div>
+                              <div class="vertical-divider align-self-center"></div>
+                              <div class="col-md-3 ad-pad">
+                                <p class="card-text"><b>Ad Type : </b><span class="text-muted">Sell</span></p>
+                                <p class="card-text"><b>Condition : </b><span class="text-muted">New</span></p>
+                                <p class="card-text"><b>Visits : </b><span class="text-muted">2080</span></p>
+                                <p class="card-text"><strong style="color: rgb(45, 206, 131); font-size: x-large;">$3,343</strong><span
+                                    class="text-muted"> (Fixed)</span></p>
+                                <button type="button" class="btn btn-sm"
+                                  style="background-color: rgb(45, 206, 131); color: floralwhite; width: 230px"><i class="fa fa-eye"
+                                    aria-hidden="true"> VIEW AD</i></button>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- second card -->
+                          <div class="card">
+                            <div class="row">
+                              <div class="col-md-3">
+                                <img src="images/img3.jpg" alt="honda">
+                              </div>
+                              <div class="col-md-6">
+                                <div class="card-body">
+                                  <h5 class="card-title">Kawasaki Ninja Bike</h5>
+                                  <p class="card-text text-muted"><i class="fa fa-map-marker" aria-hidden="true"></i>Bellevue, Washington,
+                                    United
+                                    States <i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;&nbsp;July 28, 2017</p>
+                                  <p class="text-muted">On The Wheel was established in 2006 and has grown fast to become one of south's
+                                    top
+                                    motorcycle shops. Our state...</p>
+                                  <p class="text-muted"><i class="fa fa-tachometer" aria-hidden="true"> 8000 km</i> <i class="fa fa-cogs"
+                                      aria-hidden="true"> 1250 CC</i> <i class="fa fa-car" aria-hidden="true"> Road Bikes</i> <i
+                                      class="fa fa-cog" aria-hidden="true"> Green</i></p>
+                                </div>
+                              </div>
+                              <div class="vertical-divider align-self-center"></div>
+                              <div class="col-md-3 ad-pad">
+                                <p><b>Ad Type : </b><span class="text-muted">Sell</span></p>
+                                <p><b>Condition : </b><span class="text-muted">New</span></p>
+                                <p><b>Visits : </b><span class="text-muted">2169</span></p>
+                                <p><strong style="color: rgb(45, 206, 131); font-size: x-large;">$3,343</strong><span class="text-muted">
+                                    (Negotiable)</span></p>
+                                <button type="button" class="btn btn-sm"
+                                  style="background-color: rgb(45, 206, 131); color: floralwhite; width: 230px"><i class="fa fa-eye"
+                                    aria-hidden="true"> VIEW AD</i></button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                  
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+    <hr>
+    </section>
+    <hr>
+    <!-- Icon Section -->
+    <section id="icons">
+<div class="card">
+
+  <div class="card-img-overlay">
+    <div class="row icon-pad-top">
+      <div class=" col-sm-6 col-lg-3 text-center mt-2">
+        <p class="card-title icon-img"><i class="fa fa-motorcycle fa-5x hovglow" aria-hidden="true"></i></p>
+        <h4 class="card-text">1238</h4>
+        <h5 class="card-text">Total <span style="color: rgb(45, 206, 131);">Bikes</span></h5>
+      </div>
+      <div class=" col-sm-6 col-lg-3 text-center mt-2">
+        <p class="card-title icon-img"><i class="fa fa-user-circle fa-5x hovglow" aria-hidden="true"></i></p>
+        <h4 class="card-text">820</h4>
+        <h5 class="card-text">Verified <span style="color: rgb(45, 206, 131);">Dealers</span></h5>
+      </div>
+      <div class=" col-sm-6 col-lg-3 text-center mt-2">
+        <p class="card-title icon-img"><i class="fa fa-heart-o fa-5x hovglow" aria-hidden="true"></i></p>
+        <h4 class="card-text">1024</h4>
+        <h5 class="card-text">Active <span style="color: rgb(45, 206, 131);">Users</span></h5>
+      </div>
+      <div class=" col-sm-6 col-lg-3 text-center mt-2">
+        <p class="card-title icon-img"><i class="fa fa-globe fa-5x  hovglow" aria-hidden="true"></i></p>
+        <h4 class="card-text">75</h4>
+        <h5 class="card-text">Featured <span style="color: rgb(45, 206, 131);">Ads</span></h5>
+      </div>
+    </div>
+  </div>
+</div>
+    </section>
+    <hr>
+    <section id="blog">
+      <!-- Collapsible panel for blog -->
+      <div id="accordion">
+        <div class="card bg-light" style="margin: 0 auto;">
+          <div class="card-header text-center" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link text-success font-weight-bold text-uppercase dropdown-toggle" data-toggle="collapse"
+                data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> Latest Blog Post </button>
+            </h5>
+          </div>
+              <!-- to keep open initially add show class below -->
+
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body text-muted text-center"> Eu delicata rationibus usu. Vix te putant utroque, ludus fabellas
+              duo eu, his dico ut debet consectetuer. </div>
+            <div class="album py-5 bg-light">
+              <div class="container">
+                <div class="row text-success">
+                  <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                      <img class="card-img-top" src="images/img5.jpg" alt="Img5 [100%x225]"
+                        style="height: 225px; width: 100%; display: block;" data-holder-rendered="true">
+                      <div class="card-body">
+                        <p class="card-text font-weight-bold">Heavy Bikes Production For North America Will Cease For A Year</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+                          </div>
+                          <small class="text-muted">10 mins</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                      <img class="card-img-top" src="images/img6.jpg" alt="Img6 [100%x225]"
+                        style="height: 225px; width: 100%; display: block;" data-holder-rendered="true">
+                      <div class="card-body">
+                        <p class="card-text font-weight-bold">We Hear: Yamaha RS Models Could Be Offered In Rear-Wheel</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+                          </div>
+                          <small class="text-muted">03 days</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                      <img class="card-img-top" src="images/img5.jpg" alt="Img5 [100%x225]"
+                        style="height: 225px; width: 100%; display: block;" data-holder-rendered="true">
+                      <div class="card-body">
+                        <p class="card-text font-weight-bold">Land Rover Freelancer 2 Se First Impression</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+                          </div>
+                          <small class="text-muted">19 days</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+
+    <!-- Testimonial- what people have to say -->
+
+    <section id="testimonials">
+      <div id="carouselExampleControls" class="carousel slide bg-dark text-light" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2>
+It's such an Amazing Website. I buyed My Scooter on it and am in love with My Scooter. Thanks :)
+            </h2>
+            <img class="test-img" style="transform: rotate(-15deg);" src="https://instagram.fblr5-1.fna.fbcdn.net/v/t51.2885-19/s150x150/117593132_3396175680404671_6897139069093328415_n.jpg?_nc_ht=instagram.fblr5-1.fna.fbcdn.net&_nc_ohc=1yYrBOfBHeMAX-JqTCp&oh=012de6edd9b48e89ea4bf485ec31ed9d&oe=5F9F9C1E" alt="dog-profile">
+            <em class="text-muted">Sathyakripa Alva, Bengaluru</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">
+              The Website is really very delightful. We purchased Royal Enfield. A Satisfied Customer :) 
+            </h2>
+            <img class="test-img" src="https://instagram.fblr5-1.fna.fbcdn.net/v/t51.2885-19/s150x150/119357257_621460855218140_2005476549965487253_n.jpg?_nc_ht=instagram.fblr5-1.fna.fbcdn.net&_nc_ohc=oC-HEH6WAKEAX97LIFn&oh=3d0ce8aa0a6e2041c6b00aa6e2af4ed3&oe=5F9F02C2">
+            <em class="text-muted">Lalith Kumar, Bengaluru</em>
+          </div>
+          <div class="carousel-item">
+            <h2>
+              The App is really very Awesome. I purchased Blue Avengers at a Great Deal. Am Satisfied!
+            </h2>
+            <img class="test-img" src="https://lakshmiprasad-47.github.io/resume/images/me.png" alt="Lakshmi-pic">
+            <em class="text-muted">Lakshmi, Karnataka</em>
+          </div>
+          <div class="carousel-item">
+            <h2>
+              Thanks to BikeSpot. we got our Home a new Vespa Scooter at an interesting discount. Thank You!
+            </h2>
+            <img class="test-img"
+              src="https://instagram.fblr5-1.fna.fbcdn.net/v/t51.2885-19/s150x150/118882857_323996562257632_225798291805723804_n.jpg?_nc_ht=instagram.fblr5-1.fna.fbcdn.net&_nc_ohc=twiECkwkiuoAX8q5sfW&oh=6fccdaa66415e22eaabe2abff3aea620&oe=5F9C0432"
+              alt="dog-profile">
+            <em class="text-muted">Mazna Khan, Bengaluru</em>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+    <hr>
+    <!-- sell old vehicles -->
+
+  <section id="sale">
+    <div id="accordion">
+      <div class="card text-light bg-dark" style="margin-top: 0; border-style: none;">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button class="btn btn-link dropdown-toggle text-light font-weight-bold text-uppercase" data-toggle="collapse" data-target="#collapsetwo" aria-expanded="true"
+              aria-controls="collapsetwo">
+              Want To Sale Your Bike ?
+            </button>
+          </h5>
+        </div>
+    <!-- to keep open initially add show class -->
+        <div id="collapsetwo" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body" id="cb-bg-img">
+            <h5 class="text-muted">BIKE INSPECTION</h5>
+           <p class="text-muted">Our CarSure experts inspect the car on over 200 checkpoints so you get complete satisfaction and peace of mind before
+          buying.</p>
+          <!-- data=check -->
+
+          <div class="container text-center">
+            <!--Row with three equal columns-->
+            <div class="row text-left m-auto">
+              <div class="col-lg-4 col-md-6 col-sm-6"><i class="fa fa-check" aria-hidden="true" style="color: green;"></i> Transmission</div>
+              <div class="col-lg-4 col-md-6 col-sm-6"><i class="fa fa-check" aria-hidden="true" style="color: green;"></i> Tires</div>
+              <div class="col-lg-4 col-md-6 col-sm-6"><i class="fa fa-check" aria-hidden="true" style="color: green;"></i> Suspension</div>
+            </div>
+                        <div class="row text-left m-auto">
+                          <div class="col-lg-4 col-md-6 col-sm-6"><i class="fa fa-check" aria-hidden="true" style="color: green;"></i> Air Conditioning</div>
+                          <div class="col-lg-4 col-md-6 col-sm-6"><i class="fa fa-check" aria-hidden="true" style="color: green;"></i> Steering</div>
+                          <div class="col-lg-4 col-md-6 col-sm-6"><i class="fa fa-check" aria-hidden="true" style="color: green;"></i> Lighting</div>
+                        </div>
+                                    <div class="row text-left m-auto">
+                                      <div class="col-lg-4 col-md-6 col-sm-6"><i class="fa fa-check" aria-hidden="true" style="color: green;"></i> Engine Diagnostics</div>
+                                      <div class="col-lg-4 col-md-6 col-sm-6"><i class="fa fa-check" aria-hidden="true" style="color: green;"></i> Exterior</div>
+                                      <div class="col-lg-4 col-md-6 col-sm-6"><i class="fa fa-check" aria-hidden="true" style="color: green;"></i> Interior</div>
+                                    </div>
+                                                <div class="row text-left m-auto">
+                                                  <div class="col-lg-4 col-md-6 col-sm-6"><i class="fa fa-check" aria-hidden="true" style="color: green;"></i> Wheel Alignment</div>
+                                                  <div class="col-lg-4 col-md-6 col-sm-6"><i class="fa fa-check" aria-hidden="true" style="color: green;"></i> Engine</div>
+                                                  <div class="col-lg-4 col-md-6 col-sm-6"><i class="fa fa-check" aria-hidden="true" style="color: green;"></i> Brakes col-md-6 col-sm-6</div>
+                                                </div>
+          </div>  
+          <button type="button" class="btn btn-lg"
+            style="background-color: rgb(45, 206, 131); color: floralwhite; width: 280px; margin-top: 20px;;">SCHEDULE INSPECTION <i
+              class="fa fa-chevron-right" aria-hidden="true"></i></button>
+        </div>
+      </div>
+  </section>
+
+  <!-- manufacturer ads -->
+<section id="manufacturers">
+  <div class="container">
+    <h3>Ads <span style="color: rgb(45, 206, 131);">By Manufacturer</span></h3>
+  </div>
+  <div class="line" style="padding-top: 10px; padding-bottom: 20px;">
+    <span class="line-1"></span><br>
+    <span class="line-2"></span><br>
+  </div>
+  <div class="row align-items-center" style="padding-left: 1px; padding-bottom:70px; margin: auto 0;">
+          <table>
+            <tr>
+    <td><div class="col text-center" style="padding-bottom: 5px;">
+
+      <img class="test-img-2" src="images/bmw (2).jpg" alt="bmw" style=" border-radius: 50%; width:80px;">
+  
+    </div></td>
+    <td><div class="col text-center" style="padding-bottom: 5px;">
+      <img class="test-img-2" src="images/Honda-logo.png" alt="honda" style=" width:80px;">
+  
+    </div></td>
+    <td><div class="col text-center" style="padding-bottom: 5px;">
+      <img class="test-img-2" src="images/ducati.png" alt="ducati" style=" width:80px;"></div>
+  </tr></td>
+      
+          <tr>
+    
+    <td><div class="col text-center" style="padding-bottom: 5px;">
+      <img class="test-img-2" src="images/kawasaki.png" alt="kawasaki" style=" width:80px;">
+    </div></td>
+    <td><div class="col text-center" style="padding-bottom: 5px;">
+      <img class="test-img-2" src="images/ktm.jpg" alt="ktm" style=" width:80px;">
+  
+    </div></td>
+    <td><div class="col text-center" style="padding-bottom: 5px;">
+      <img class="test-img-2" src="images/suzuki.png" alt="suzuki" style=" width:80px;">
+    </div></td>
+          
+            <tr>
+    </table>
+  </div>
+  </section>
+  <hr>
+
+  <!-- App Download -->
+  <section id="download">
+<div class="container-fluid">
+
+  <!-- Title -->
+
+  <div class="row">
+    <div class="col-lg-6 text-left ad-pad">
+      <h1 class="text-muted display-4-1 font-weight-bold"> GET OUR APP FOR YOUR SMARTPHONE</h1>
+      <div class="text-muted ad-pad ml-auto">
+        <p><i class="fa fa-hand-o-right" aria-hidden="true"></i>  Find nearby bikes in your network with experts</p>
+        <p><i class="fa fa-hand-o-right" aria-hidden="true"></i>  Browse real hirers reviews to know why choose us</p>
+        <p><i class="fa fa-hand-o-right" aria-hidden="true"></i>  Rent a car so easy with a tap !</p>
+        <p><i class="fa fa-hand-o-right" aria-hidden="true"></i>  Rent a car so easy with a tap !</p>
+      </div>
+      <div class="dwnbtntwo"><button type="button" class="btn btn-dark btn-lg dwnbtn">
+        <i class="fab fa-apple" aria-hidden="true"></i> Download </button>
+      <button type="button" class="btn btn-outline-light btn-lg dwnbtn">
+        <i class="fab fa-google-play" aria-hidden="true"></i> Download </button></div>
+    </div>
+    <div class="col-lg-6">
+      <img class="title-img" src="images/iphone6.png" alt="iphone-mockup">
+    </div>
+  </div>
+</div>
+  </section>
+<hr>
+  <!-- footer -->
+
+  <footer id="footer">
+
+    <!-- bootstrap verti-hori grid -->
+
+    <div class="container-fluid">
+      <div class="row align-items-start">
+        <div class="col">
+                  <div class="social-media">
+                    <h4 class="">Get In Touch</h4>
+                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.gmail.com" target="_blank"><i class="far fa-envelope" aria-hidden="true"></i></a>
+                  </div>
+        </div>
+        <div class="col">
+                    <div class="social-media">
+                      <h4 class="">Quick Links</h4>
+                      <a href="#">Sample Page</a>
+                      <a href="#title">About Us</a>
+                      <a href="#blog">Blog</a>
+                    </div>
+        </div>
+        <div class="col-lg-auto col-sm-12">
+          <div class="news-letter">
+            <h4>Signup for Weekly Newsletter</h4>
+            <p class="text-muted" style="padding-top: 22px;">We may send you information about related events,<br>webinars,
+              products and services which we believe.</p>
+            <p style="padding-top: 7px;">
+            </p>
+            <div class="input-group" style="padding-bottom: 10px; height: 60px;">
+              <input type="mail" placeholder="Enter Your Email" aria-describedby="email"
+                class="form-control form-control-lg bg-light text-center" style="font-size: 21px;">
+              <div class="input-group-append">
+                <button id="email" type="submit" class="btn"
+                  style="background-color: rgb(45, 206, 131); color: white;">SUBMIT</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="text-center mt-3">
+      <p class="btn-link pb-3 mb-0 mt-5">© Copyright Sowparnika, 2020.</p>
+      </div>
+
+  </footer>
+ </body>
+
+</html>
